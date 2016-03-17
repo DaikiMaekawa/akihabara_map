@@ -1,3 +1,3 @@
-# akihabara_map
+# akihabara_maps
 
 Note: In Progress
