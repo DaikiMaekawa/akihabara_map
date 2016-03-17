@@ -1,4 +1,4 @@
-# Aihabara Maps
+# Akihabara Maps
 
 ## About
 
