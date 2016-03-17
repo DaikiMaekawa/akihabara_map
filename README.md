@@ -1,8 +1,6 @@
 # akihabara_maps
 
-## About 
-
-TODO
+Akihabara maps for Geeks
 
 ## Contributing
 
