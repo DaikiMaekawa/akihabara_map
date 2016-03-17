@@ -1,4 +1,6 @@
-# akihabara_maps
+# Aihabara Maps
+
+## About
 
 Akihabara maps for Geeks
 
