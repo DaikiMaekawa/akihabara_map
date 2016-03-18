@@ -8,6 +8,14 @@ Akihabara maps for Geeks
 
 Pull requests are welcome :)
 
+If you know more things please let me know by writing down into the section below.
+
+```html
+<section id="main_content">
+
+</section>
+```
+
 1. Fork it (https://github.com/DaikiMaekawa/akihabara_maps/fork)
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
