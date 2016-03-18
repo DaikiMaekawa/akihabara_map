@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script src="http://maps.google.com/maps/api/js"></script>
+    <script src="gmaps.js"></script>
+    
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
@@ -57,6 +60,15 @@
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.1168865800746!2d139.76808431480384!3d35.69874113661968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c1d02f4d831%3A0xf8a6bb555de89e18!2z44ON44K444Gu6KW_5bed6Zu75a2Q6YOo5ZOB!5e0!3m2!1sja!2sjp!4v1458252715690" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
         
         </section>
+        
+          <div id="map"></div>
+          <script>
+            var map = new GMaps({
+              el: '#map',
+              lat: -12.043333,
+              lng: -77.028333
+            });
+          </script>
 
         <footer>
           Akihabara Maps is maintained by <a href="https://github.com/DaikiMaekawa">DaikiMaekawa</a><br>
