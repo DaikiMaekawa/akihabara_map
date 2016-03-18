@@ -12,7 +12,9 @@ If you know more things please let me know by writing down into the section [her
 
 ```html
 <section id="main_content">
-
+  <h3>Name</h3>
+  <p>Description</p>
+  <iframe>A link to the inline frame of Google Map</iframe>
 </section>
 ```
 
