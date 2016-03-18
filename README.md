@@ -1,6 +1,6 @@
 ## About
 
-Akihabara maps for Geeks
+Akihabara Maps for Geeks
 
 ## Contributing
 
