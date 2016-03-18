@@ -1,5 +1,3 @@
-# Akihabara Maps
-
 ## About
 
 Akihabara maps for Geeks
