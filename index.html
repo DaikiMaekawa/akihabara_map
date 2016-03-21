@@ -16,12 +16,6 @@
         lat: 35.7021,
         lng: 139.7753
       });
-      
-      map.addMarker({
-        lat: jsonData[0].lat,
-        lng: jsonData[0].lng,
-        title: jsonData[0].name
-      });
 
       $('#geocoding_form').submit(function(e){
         e.preventDefault();
@@ -72,6 +66,12 @@
            var para = document.createElement("p");
            para.appendChild(document.createTextNode(jsonData[i-1].description));
            element.appendChild(para);
+           
+           map.addMarker({
+             lat: jsonData[i-1].lat,
+             lng: jsonData[i-1].lng,
+             title: jsonData[i-1].name
+           });
          }
       </script>
   </div>
