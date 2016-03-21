@@ -1,8 +1,8 @@
-var jsonData = {[
+var jsonData = [
     {
         "name": "Akizuki Denshi"
     },
     {
         "name": "Sengoku"
     }
-]}    
+]
