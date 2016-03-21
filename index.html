@@ -63,10 +63,10 @@
   </div>
   <div id="body">
     <script type="text/javascript">
-      for(var i=1; i<=1; i++) {
+      for(var i=1; i<=jsonData.length; i++) {
         var element = document.createElement('p');
         element.id = "id";
-        element.innerHTML = "TODO: Implement";
+        element.innerHTML = jsonData[i].name;
         var objBody = document.getElementsByTagName("body").item(0);
         objBody.appendChild(element);
       }
