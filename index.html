@@ -18,6 +18,65 @@
     });
   </script>
 </head>
+  <script type="text/javascript">
+    var map;
+    $(document).ready(function(){
+      map = new GMaps({
+        el: '#map',
+        lat: -12.043333,
+        lng: -77.028333
+      });
+      $('#geocoding_form').submit(function(e){
+        e.preventDefault();
+        GMaps.geocode({
+          address: $('#address').val().trim(),
+          callback: function(results, status){
+            if(status=='OK'){
+              var latlng = results[0].geometry.location;
+              map.setCenter(latlng.lat(), latlng.lng());
+              map.addMarker({
+                lat: latlng.lat(),
+                lng: latlng.lng()
+              });
+            }
+          }
+        });
+      });
+    });
+  </script>
+</head>
+<body>
+  <h1>GMaps.js &mdash; Geocoding</h1>
+  <div class="row">
+    <div class="span11">
+      <form method="post" id="geocoding_form">
+        <label for="address">Address:</label>
+        <div class="input">
+          <input type="text" id="address" name="address" />
+          <input type="submit" class="btn" value="Search" />
+        </div>
+      </form>
+      <div id="map"></div>
+    </div>
+    <div class="span6">
+      <p>You can geocoding this way:</p>
+      <pre>GMaps.geocode({
+  address: $('#address').val(),
+  callback: function(results, status){
+    if(status=='OK'){
+      var latlng = results[0].geometry.location;
+      map.setCenter(latlng.lat(), latlng.lng());
+      map.addMarker({
+        lat: latlng.lat(),
+        lng: latlng.lng()
+      });
+    }
+  }
+});</pre>
+      <p>You can define either <code>address</code> or <code>lat</code> and <code>lng</code>. Also, you must define <code>callback</code>, which will use <code>results</code> of geocoding and <code>status</code>.</p>
+    </div>
+  </div>
+</body>
 <body>
   <a href="https://github.com/DaikiMaekawa/akihabara_maps" target="blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
   <div id="header">
