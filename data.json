@@ -7,8 +7,8 @@ var jsonData = [
     },
     {
         "name": "Sengoku Densho",
-        "lat": -10.0,
-        "lng": -80.0,
+        "lat": 35.6992915,
+        "lng": 139.77009010000006,
         "description": "The price is a little bit expensive, but they have a good assortment of electronic parts, tools and assembly kits at the shop."
     },
     {
