@@ -24,11 +24,13 @@
             if(status=='OK'){
               var latlng = results[0].geometry.location;
               var mydata = JSON.parse(data);
+              alert(mydata[0].name);
+              alert("debug");
               map.setCenter(latlng.lat(), latlng.lng());
               map.addMarker({
                 lat: latlng.lat(),
                 lng: latlng.lng(),
-                title: mydata[0].name
+                "New Address"
               });
             }
           }
