@@ -22,10 +22,22 @@
           callback: function(results, status){
             if(status=='OK'){
               var latlng = results[0].geometry.location;
-              $.getJSON("data.json", function(data){
-                  alert(data[0].name);
-              });
-              alert(data[0].name);
+              var flickerAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
+              $.getJSON( flickerAPI, {
+                      tags: "sunset",
+                      tagmode: "any",
+                      format: "json"
+                      }, function(data) {
+                          $.each(data.items, function(i, item)) {
+                              var img = $("<img />");
+                              img.attr('width', '200px');
+                              img.attr('height', '150px');
+                              img.attr("src", item.media.m).appendTo("#dvImages");
+                              if(i == 3) return false;
+                          }
+                      }
+              );
+                            
               map.setCenter(latlng.lat(), latlng.lng());
               map.addMarker({
                 lat: latlng.lat(),
