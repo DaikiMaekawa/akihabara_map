@@ -26,7 +26,16 @@
         var para = document.createElement("p");
         para.appendChild(document.createTextNode(jsonData[i-1].description));
         element.appendChild(para);
-           
+        
+        map.drawOverlay({
+          lat: jsonData[i-1].lat,
+          lng: jsonData[i-1].lng,
+          layer: 'overlayLayer',
+          content: '<div class="overlay">TODO<div class="overlay_arrow above"></div></div>',
+          verticalAlign: 'top',
+          horizontalAlign: 'center'
+        });
+        
         map.addMarker({
           lat: jsonData[i-1].lat,
           lng: jsonData[i-1].lng,
