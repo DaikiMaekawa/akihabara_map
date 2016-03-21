@@ -64,9 +64,8 @@
   <div id="body">
     <script type="text/javascript">
       for(var i=1; i<=jsonData.length; i++) {
-        var node = document.createElement('body');
-        node.id = "parent";
-        var text = document.createElement("TODO:");
+        var node = document.createElement('P');
+        var text = document.createTextNode("TODO:");
         text.style.textAligh = 'center';
         node.appendChild(text);
       }
