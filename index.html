@@ -16,9 +16,10 @@
         lat: -12.043333,
         lng: -77.028333
       });
-    $('#geocoding_form').submit(function(e){
-      e.preventDefault();
-      GMaps.geocode({
+    
+      $('#geocoding_form').submit(function(e){
+        e.preventDefault();
+        GMaps.geocode({
         address: $('#address').val().trim(),
           callback: function(results, status){
             if(status=='OK'){
