@@ -66,7 +66,7 @@
       for(var i=1; i<=jsonData.length; i++) {
         var element = document.createElement('p');
         element.id = "id";
-        element.innerHTML = jsonData[i].name;
+        element.innerHTML = jsonData[i-1].name;
         var objBody = document.getElementsByTagName("body").item(0);
         objBody.appendChild(element);
       }
