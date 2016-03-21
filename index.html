@@ -23,11 +23,13 @@
           callback: function(results, status){
             if(status=='OK'){
               var latlng = results[0].geometry.location;
+              var mydata = JSON.parse(data);
               map.setCenter(latlng.lat(), latlng.lng());
               map.addMarker({
                 lat: latlng.lat(),
                 lng: latlng.lng(),
-                title : 'New Address[lat, lng] = (' + latlng.lat().toString() + ', ' + latlng.lng().toString() + ')'
+                title: mydata[0].name
+                <!--title : 'New Address[lat, lng] = (' + latlng.lat().toString() + ', ' + latlng.lng().toString() + ')'-->
               });
             }
           }
@@ -36,7 +38,7 @@
     });
   </script>
   <script>
-    var mydata = JSON.parse(data)
+    var mydata = JSON.parse(data);
     alert(mydata[0].name);
   </script>
 </head>
