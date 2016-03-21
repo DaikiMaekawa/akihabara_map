@@ -25,6 +25,7 @@
               $.getJSON("data.json", function(data){
                   alert(data[0].name);
               });
+              alert(data[0].name);
               map.setCenter(latlng.lat(), latlng.lng());
               map.addMarker({
                 lat: latlng.lat(),
