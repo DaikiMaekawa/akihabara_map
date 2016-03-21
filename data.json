@@ -1,8 +1,8 @@
 var jsonData = [
     {
         "name": "Akizuki Denshi",
-        "lat": -12.043,
-        "lng": -77.028
+        "lat": 35.6993,
+        "lng": 139.7698
     },
     {
         "name": "Sengoku",
