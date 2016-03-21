@@ -65,7 +65,11 @@
     <p class="big centered">
       <script type="text/javascript">
         for(var i=1; i<=10; i++) {
-          document.write("TODO: Implement <br>");
+          var element = document.createElement('div');
+          element.id = "id";
+          element.innerHTML = "TODO";
+          var objBody = document.getElementsByTagName("body").item(0);
+          objBody.appendChild(element);
         }
       </script>
     </p>
