@@ -24,7 +24,7 @@
             if(status=='OK'){
               var latlng = results[0].geometry.location;
               var mydata = JSON.parse(data);
-              alert(mydata[1].name);
+              alert(mydata[0].name);
               map.setCenter(latlng.lat(), latlng.lng());
               map.addMarker({
                 lat: latlng.lat(),
