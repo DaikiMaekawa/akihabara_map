@@ -62,7 +62,21 @@
     </div>
   </div>
   <div id="body">
+    <div id="div1">
+      <p id="p1">This is a paragraph.</p>
+      <p id="p2">This is another paragraph.</p>
+    </div>
+
     <script type="text/javascript">
+      var para = document.createElement("p");
+      var node = document.createTextNode("This is new.");
+      para.appendChild(node);
+
+      var element = document.getElementById("div1");
+      element.appendChild(para);
+    </script>
+    
+    <!--script type="text/javascript">
       for(var i=1; i<=jsonData.length; i++) {
         var node = document.createElement('p');
         var text = document.createTextNode("TODO:");
@@ -72,7 +86,7 @@
         var objBody = document.getElementsByTagName("body").item(0);
         objBody.appendChild(node);
       }
-    </script>
+    </script-->
   </div>
   <p id="sponsors">
     <br />
