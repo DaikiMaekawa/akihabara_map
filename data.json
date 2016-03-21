@@ -1,1 +1,5 @@
-data = [{"name" : "Ashwin3", "age" : "20"},{"name" : "Abhinandan3", "age" : "20"}];
+data = [
+    { "name": "山田", "age": 21 },
+    { "name": "佐藤", "age": 56 },
+    { "name": "鈴木", "age": 33 }
+]
