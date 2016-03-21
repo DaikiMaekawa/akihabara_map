@@ -24,4 +24,5 @@ If you know more things please let me know by writing down into the section [her
 
 ## License
 
-[Creative Commons Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/)
+The website is available as open source under the terms of the BSD License. Copyright 2016 Daiki Maekawa.
+
