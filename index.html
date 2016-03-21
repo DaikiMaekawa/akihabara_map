@@ -64,10 +64,13 @@
   <div id="body">
     <script type="text/javascript">
       for(var i=1; i<=jsonData.length; i++) {
-        var node = document.createElement('P');
+        var node = document.createElement('p');
         var text = document.createTextNode("TODO:");
         text.style.textAligh = 'center';
         node.appendChild(text);
+
+        var objBody = document.getElementsByTagName("body").item(0);
+        objBody.appendChild(node);
       }
     </script>
   </div>
