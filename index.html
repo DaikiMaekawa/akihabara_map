@@ -7,6 +7,7 @@
   <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script type="text/javascript" src="//maps.google.com/maps/api/js?sensor=true"></script>
   <script type="text/javascript" src="gmaps.js"></script>
+  <script type="text/javascript" src="data.json"></script>
   <script type="text/javascript">
     var map;
     $(document).ready(function(){
@@ -33,6 +34,10 @@
         });
       });
     });
+  </script>
+  <script>
+    var mydata = JSON.parse(data)
+    alert(mydata[0].name);
   </script>
 </head>
 <body>
