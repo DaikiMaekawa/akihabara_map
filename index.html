@@ -65,10 +65,9 @@
       <script type="text/javascript">
         for(var i=1; i<=jsonData.length; i++) {
            var h = document.createElement("h2");
-           var node = document.createTextNode(jsonData[i-1].name);
-           h.appendChild(node);
+           h.appendChild(document.createTextNode(jsonData[i-1].name));
            var para = document.createElement("p");
-           para.appendChild(document.createTextNode("TODO"));
+           para.appendChild(document.createTextNode("TODO: Add Description"));
            h.appendChild(para);
            
            var element = document.getElementById("body");
