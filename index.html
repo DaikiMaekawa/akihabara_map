@@ -30,7 +30,7 @@
         map.drawOverlay({
           lat: jsonData[i-1].lat,
           lng: jsonData[i-1].lng,
-          content: '<div class="overlay">TODO<div class="overlay_arrow above"></div></div>',
+          content: '<div class="overlay">%s<div class="overlay_arrow above"></div></div>'.replace("%s", jsonData[i-1].name),
           verticalAlign: 'top',
           horizontalAlign: 'center'
         });
