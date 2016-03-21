@@ -7,6 +7,7 @@
   <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script type="text/javascript" src="//maps.google.com/maps/api/js?sensor=true"></script>
   <script type="text/javascript" src="gmaps.js"></script>
+  <script type="text/javascript" src="data.json"></script>
   <script type="text/javascript">
     var map;
     $(document).ready(function(){
@@ -22,18 +23,7 @@
           callback: function(results, status){
             if(status=='OK'){
               var latlng = results[0].geometry.location;
-              var flickerAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
-              $.getJSON( flickerAPI, {
-                      tags: "sunset",
-                      tagmode: "any",
-                      format: "json"
-                      }, function(data) {
-                          $.each(data.items, function(i, item)) {
-                            alert("test");
-                          }
-                      }
-              );
-                            
+              alert(jsonObject.start.count);
               map.setCenter(latlng.lat(), latlng.lng());
               map.addMarker({
                 lat: latlng.lat(),
