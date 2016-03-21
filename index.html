@@ -16,7 +16,13 @@
         lat: -12.043333,
         lng: -77.028333
       });
-    
+      
+      map.addMarker({
+        lat: jsonData[0].lat,
+        lng: jsonData[0].lng,
+        title: jsonData[0].name
+      });
+
       $('#geocoding_form').submit(function(e){
         e.preventDefault();
         GMaps.geocode({
@@ -24,7 +30,6 @@
           callback: function(results, status){
             if(status=='OK'){
               var latlng = results[0].geometry.location;
-              alert(jsonData[0].name);
               map.setCenter(latlng.lat(), latlng.lng());
               map.addMarker({
                 lat: latlng.lat(),
