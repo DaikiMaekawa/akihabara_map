@@ -1,5 +1,23 @@
-data = [
-    { "name": "hoge", "age": 21 },
-    { "name": "fuga", "age": 56 },
-    { "name": "fizz", "age": 33 }
-]
+var jsonObject = {
+"start": {
+    "count": "5",
+    "title": "start",
+    "priorities": [
+        {
+            "txt": "Work"
+        },
+        {
+            "txt": "Time Sense"
+        },
+        {
+            "txt": "Dicipline"
+        },
+        {
+            "txt": "Confidence"
+        },
+        {
+            "txt": "CrossFunctional"
+        }
+    ]
+}
+}
