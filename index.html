@@ -35,12 +35,6 @@
           verticalAlign: 'top',
           horizontalAlign: 'center'
         });
-        
-        map.addMarker({
-          lat: jsonData[i-1].lat,
-          lng: jsonData[i-1].lng,
-          title: jsonData[i-1].name
-        });
       }
 
       $('#geocoding_form').submit(function(e){
