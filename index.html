@@ -67,7 +67,6 @@
         for(var i=1; i<=jsonData.length; i++) {
           var para = document.createElement("p");
           var node = document.createTextNode(jsonData[i-1].name);
-          para.setAttribute('class', 'big centered');
           para.appendChild(node);
           style.textAlign = "big centered";
           var element = document.getElementById("div");
