@@ -4,7 +4,7 @@ Akihabara Maps for Geeks
 
 ## Contributing
 
-If you know more things please let me know by writing down into the section [here](https://github.com/DaikiMaekawa/akihabara_maps/blob/gh-pages/index.html#L32).
+If you know more things please let me know by writing down into [data.json](data.json).
 
 ```html
 <section id="main_content">
