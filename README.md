@@ -7,13 +7,12 @@ Akihabara Maps for Geeks
 If you know more things please let me know by writing down into [data.json](data.json).
 
 ```html
-<section id="main_content">
-  ...
-  <h3>Name</h3>
-  <p>Description</p>
-  <iframe>A link to the inline frame of Google Map</iframe>
-  ...
-</section>
+{
+  "name": STRING,
+  "lat": FLOAT,
+  "lng": FLOAT,
+  "description": STRING
+}
 ```
 
 1. Fork it (https://github.com/DaikiMaekawa/akihabara_maps/fork)
