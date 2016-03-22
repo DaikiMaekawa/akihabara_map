@@ -6,7 +6,7 @@ Akihabara Maps for Geeks
 
 If you know more things please let me know by writing down into [data.json](data.json).
 
-```html
+```javascript
 {
   "name": STRING,
   "lat": FLOAT,
