@@ -47,9 +47,9 @@
               map.addMarker({
                 lat: latlng.lat(),
                 lng: latlng.lng(),
-                title : 'New Address [lat, lng] = (' + latlng.lat().toString() + ', ' + latlng.lng().toString() + ')',
+                title : '[lat, lng] = (' + latlng.lat().toString() + ', ' + latlng.lng().toString() + ')',
                 infoWindow: {
-content: '<p>New Address</p><p>lat: %1</p><p>lng: %2</p>'.replace("%1", latlng.lat().toString()).replace("%2", latlng.lng().toString())
+content: '<p>Longitude and Latitude Coordinates</p><p>lat: %1</p><p>lng: %2</p>'.replace("%1", latlng.lat().toString()).replace("%2", latlng.lng().toString())
                 }
               });
             }
