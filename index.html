@@ -49,7 +49,7 @@
                 lng: latlng.lng(),
                 title : 'New Address [lat, lng] = (' + latlng.lat().toString() + ', ' + latlng.lng().toString() + ')',
                 infoWindow: {
-                  content: '<p>HTML Content</p>'
+content: '<p>New Address</p><p>lat: %1</p><p>lng: %2</p>'.replace("%1", latlng.lat().toString()).replace("%2", latlng.lng().toString())
                 }
               });
             }
