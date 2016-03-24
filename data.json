@@ -16,5 +16,11 @@ var jsonData = [
         "lat": 35.6958797,
         "lng": 139.77381430000003,
         "description": "This R/C shop has an abundant line-up of lithium-polymer batteries."
+    },
+    {
+        "name": "Akibaoo",
+        "lat": 35.6999303,
+        "lng": 139.770269,
+        "description": "TODO"
     }
 ]
