@@ -3,13 +3,13 @@ var jsonData = [
         "name": "Akizuki Denshi",
         "lat": 35.6993,
         "lng": 139.7698,
-        "description": "The holy place of electronics geeks in Japan."
+        "description": "The holy place of electronics geeks in Japan. Everything is cheap. Various electronic stuff there such as micro controllers, sensors and geeky kits. The shop has been officially opened on 1970."
     },
     {
         "name": "Sengoku Densho",
         "lat": 35.6992915,
         "lng": 139.77009010000006,
-        "description": "The price is a little bit expensive, but they have a good assortment of electronic parts, tools and assembly kits at the shop."
+        "description": "The price is a little bit expensive than Akizuki, but they have a good assortment of electronic parts, tools and assembly kits at the shop."
     },
     {
         "name": "Futaba Sangyo",
