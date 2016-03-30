@@ -27,6 +27,6 @@ var jsonData = [
         "name": "Nishikawa Denshi",
         "lat": 35.6987351,
         "lng": 139.77037960000007,
-        "description": "TODO"
+        "description": "There many screws and springs. It can be ordered from a piece."
     }
 ]
