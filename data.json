@@ -22,5 +22,11 @@ var jsonData = [
         "lat": 35.6999303,
         "lng": 139.770269,
         "description": "TODO"
+    },
+    {
+        "name": "Nishikawa Denshi",
+        "lat": 35.6987351,
+        "lng": 139.77037960000007,
+        "description": "TODO"
     }
 ]
