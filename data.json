@@ -28,5 +28,11 @@ var jsonData = [
         "lat": 35.6987351,
         "lng": 139.77037960000007,
         "description": "There many screws and springs. It can be ordered from a piece."
+    },
+    {
+        "name": "SS-Musen",
+        "lat": 35.6987837,
+        "lng": 139.7708589,
+        "description": "The store carries a large selection of such as aluminum member."
     }
 ]
