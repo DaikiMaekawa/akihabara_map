@@ -47,4 +47,10 @@ var jsonData = [
 	"lng": 139.770258,
 	"description": "The store has various bipedal walking robots and drones. and parts for robot development. There is a small ring for demonstration."
     },
+    {
+	"name": "Champ",
+	"lat": 35.703580,
+	"lng": 139.769866,
+	"description": "The store specializes in R/C cars, ships, aircrafts and smart drones. It has a large variety of batteries, gears, motors and metal parts."
+    },
 ]
