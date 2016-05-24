@@ -1,6 +1,6 @@
 ## About
 
-Akihabara Maps for Robot Geeks. I'd like to introduce attractive shops in Electric Town to you.
+Akihabara Maps for Robot Geeks.
 
 ## Contributing
 
