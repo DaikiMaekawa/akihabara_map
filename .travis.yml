@@ -1,3 +1,11 @@
+compiler:
+- gcc
+notifications:
+email:
+recipients:
+- method_aspect_card@yahoo.co.jp
+on_success: change #[always|never|change] # default: change
+on_failure: change #[always|never|change] # default: always
 script:
 - sudo apt-get install -y libssl-dev libreadline-dev zlib1g-dev
 - git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
