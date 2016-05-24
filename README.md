@@ -1,2 +1,0 @@
-# akihabara_map
-

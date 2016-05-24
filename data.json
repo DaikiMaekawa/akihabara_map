@@ -1,0 +1,38 @@
+var jsonData = [
+    {
+        "name": "Akizuki Denshi",
+        "lat": 35.6993,
+        "lng": 139.7698,
+        "description": "The holy place of electronics geeks in Japan. Everything is cheap. Various electronic stuff there such as micro controllers, sensors and geeky kits. The shop has been officially opened on 1970."
+    },
+    {
+        "name": "Sengoku Densho",
+        "lat": 35.6992915,
+        "lng": 139.77009010000006,
+        "description": "The price is a little bit expensive than Akizuki, but they have a good assortment of electronic parts, tools and assembly kits at the shop. They opened the shop on 1971. This one and Akizuki are adjoin, so basically, you can purchase items which you want to get in the those shops."
+    },
+    {
+        "name": "Futaba Sangyo",
+        "lat": 35.6958797,
+        "lng": 139.77381430000003,
+        "description": "This R/C shop has an abundant line-up of lithium-polymer batteries."
+    },
+    {
+        "name": "Akibaoo",
+        "lat": 35.6999303,
+        "lng": 139.770269,
+        "description": "TODO"
+    },
+    {
+        "name": "Nishikawa Denshi",
+        "lat": 35.6987351,
+        "lng": 139.77037960000007,
+        "description": "There many screws and springs. It can be ordered from a piece."
+    },
+    {
+        "name": "SS-Musen",
+        "lat": 35.6987837,
+        "lng": 139.7708589,
+        "description": "The store carries a large selection of such as aluminum member."
+    }
+]

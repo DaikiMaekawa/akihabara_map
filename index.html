@@ -1,0 +1,90 @@
+<!DOCTYPE>
+<html>
+<head>
+  <title>Akihabara Maps &mdash; akihabara maps for every geeks</title>
+  <link href='//fonts.googleapis.com/css?family=Convergence|Bitter|Droid+Sans' rel='stylesheet' type='text/css' />
+  <link href='styles.css' rel='stylesheet' type='text/css' />
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript" src="//maps.google.com/maps/api/js?sensor=true"></script>
+  <script type="text/javascript" src="gmaps.js"></script>
+  <script type="text/javascript" src="data.json"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      map = new GMaps({
+        div: '#map',
+        lat: 35.6993,
+        lng: 139.7698,
+        enableNewStyle: true
+      });
+      
+      for(var i=1; i<=jsonData.length; i++) {
+        var element = document.getElementById("body");
+           
+        var h = document.createElement("h2");
+        h.appendChild(document.createTextNode(jsonData[i-1].name));
+        element.appendChild(h);
+        var para = document.createElement("p");
+        para.appendChild(document.createTextNode(jsonData[i-1].description));
+        element.appendChild(para);
+        
+        map.drawOverlay({
+          lat: jsonData[i-1].lat,
+          lng: jsonData[i-1].lng,
+          content: '<div class="overlay">%s<div class="overlay_arrow above"></div></div>'.replace("%s", jsonData[i-1].name),
+          verticalAlign: 'top',
+          horizontalAlign: 'center'
+        });
+      }
+
+      $('#geocoding_form').submit(function(e){
+        e.preventDefault();
+        GMaps.geocode({
+        address: $('#address').val().trim(),
+          callback: function(results, status){
+            if(status=='OK'){
+              var latlng = results[0].geometry.location;
+              map.setCenter(latlng.lat(), latlng.lng());
+              map.addMarker({
+                lat: latlng.lat(),
+                lng: latlng.lng(),
+                title : '[lat, lng] = (' + latlng.lat().toString() + ', ' + latlng.lng().toString() + ')',
+                infoWindow: {
+                  content: '<p>Longitude and Latitude Coordinates</p><p>lat: %1</p><p>lng: %2</p>'.replace("%1", latlng.lat().toString()).replace("%2", latlng.lng().toString())
+                }
+              });
+            }
+          }
+        });
+      });
+    });
+  </script>
+</head>
+<body>
+  <a href="https://github.com/DaikiMaekawa/akihabara_maps" target="blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+  <div id="header">
+    <h1>Akihabara Maps</h1>
+    <h2>Electric Town in Akihabara</h2>
+  </div>
+  <div id="body">
+    <p class="big centered">As the first, this area was prospered as the black market after the Second World War, and then it has come to be that provides various electronics, parts and software stuff as the economy grew rapidly. However, Akihabara's Electric Town is gradually declining in market superiority of a particular domestic electrical appliances, because of rapid raised of the large electrical appliance stores from 1990s onward. Therefore, many small and medium sized electronics stores has disappeared from there. On the other hand, basically those large shops does not carry geeky electronic parts, so that many unique and attractive shops are still exist in the same place. You'll see a townscape which haven't changed the holy places of geeks since before. In this site, I'd like to introduce attractive shops to you. (Not completed yet)</p>
+    <p class="centered">I hope you will be able to provide the information. Pull Requests are wellcome :)</p>
+    
+    <form method="post" id="geocoding_form">
+      <label for="address">Address:</label>
+      <div class="input">
+        <input type="text" id="address" name="address" />
+        <input type="submit" class="btn" value="Search" />
+      </div>
+    </form>
+    <div class="popin">
+      <div id="map"></div>
+    </div>
+    <br>
+  </div>
+  
+  <p id="sponsors">
+    <br />
+    The website is available as open source under the terms of the BSD License. Copyright 2016 Daiki Maekawa. <a href="https://github.com/DaikiMaekawa" target="blank">https://github.com/DaikiMaekawa</a>
+  </p>
+</body>
+</html>
