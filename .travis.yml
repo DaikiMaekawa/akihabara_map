@@ -3,7 +3,6 @@ rvm:
 - 2.1
 
 script: bundle exec jekyll build --drafts && bundle exec htmlproof ./_site
-6	
 
 env:
   global:
