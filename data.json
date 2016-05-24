@@ -34,5 +34,11 @@ var jsonData = [
         "lat": 35.6987837,
         "lng": 139.7708589,
         "description": "The store carries a large selection of such as aluminum member."
-    }
+    },
+    {
+	"name": "Vstone Robot Center",
+	"lat": 35.698741,
+	"lng": 139.770401,
+	"description": "The store is run by a Japanese robot company Vstone(https://www.vstone.co.jp/). It has a lot of robot parts such as sensors, gears, motors. It also sells educational robots and robot kits. Some robot kits are designed for children's education."
+    },
 ]
