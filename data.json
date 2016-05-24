@@ -41,4 +41,10 @@ var jsonData = [
 	"lng": 139.770401,
 	"description": "The store is run by a Japanese robot company Vstone(https://www.vstone.co.jp/). It has a lot of robot parts such as sensors, gears, motors. It also sells educational robots and robot kits. Some robot kits are designed for children's education."
     },
+    {
+	"name": "Tsukumo Robot Okoku",
+	"lat": 35.698914,
+	"lng": 139.770258,
+	"description": "The store has various bipedal walking robots and drones. and parts for robot development. There is a small ring for demonstration."
+    },
 ]
