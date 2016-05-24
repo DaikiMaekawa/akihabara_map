@@ -52,5 +52,5 @@ var jsonData = [
 	"lat": 35.703580,
 	"lng": 139.769866,
 	"description": "The store specializes in R/C cars, ships, aircrafts and smart drones. It has a large variety of batteries, gears, motors and metal parts."
-    },
+    }
 ]
