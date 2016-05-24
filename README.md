@@ -24,4 +24,3 @@ If you know more things please let me know by writing down into [data.json](data
 ## License
 
 The website is available as open source under the terms of the BSD License. Copyright 2016 Daiki Maekawa.
-
