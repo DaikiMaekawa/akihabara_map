@@ -1,3 +1,9 @@
+# whitelist
+branches:
+  only:
+    - master
+    - gh-pages
+
 language: ruby
 rvm:
 - 2.1
