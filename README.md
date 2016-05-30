@@ -1,6 +1,6 @@
 ## About
 
-[![Build Status](https://travis-ci.org/DaikiMaekawa/akihabara_maps.svg?branch=gh-pages)](https://travis-ci.org/DaikiMaekawa/akihabara_maps)
+[![Build Status](https://travis-ci.org/DaikiMaekawa/akihabara_map_for_geeks.svg?branch=gh-pages)](https://travis-ci.org/DaikiMaekawa/akihabara_map_for_geeks)
 
 Akihabara Maps for Robot Geeks.
 
