@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/DaikiMaekawa/akihabara_map_for_geeks.svg?branch=gh-pages)](https://travis-ci.org/DaikiMaekawa/akihabara_map_for_geeks)
 
-Akihabara Maps for Robot Geeks.
+Akihabara Map for Robot Geeks.
 
 ## Contributing
 
