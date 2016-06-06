@@ -4,6 +4,12 @@
 
 Akihabara Map for Robot Geeks.
 
+## Usage
+
+The site has been published to the following link. 
+
+https://daikimaekawa.github.io/akihabara_map_for_geeks/
+
 ## Contributing
 
 If you know more things please let me know by writing down into [data.json](data.json).
