@@ -68,6 +68,7 @@
         alert("Your browser does not support geolocation");
       },
       always: function() {
+        setInterval("plot_estimated_pose()", 1000);
       }
       });
 
