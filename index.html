@@ -56,6 +56,7 @@
           }
         });
       });
+
       GMaps.geolocate({
         success: function(position) {
         map.setCenter(position.coords.latitude, position.coords.longitude);
@@ -67,9 +68,14 @@
         alert("Your browser does not support geolocation");
       },
       always: function() {
-        alert("Done!");
       }
       });
+
+      function plot_estimated_pose() {
+        alert("test");
+      }
+
+      setInterval("plot_estimated_pose()", 1000);
     });
   </script>
 </head>
