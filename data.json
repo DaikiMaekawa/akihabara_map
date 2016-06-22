@@ -3,54 +3,54 @@ var jsonData = [
         "name": "Akizuki Denshi",
         "lat": 35.6993,
         "lng": 139.7698,
-        "description": "The holy place of electronics geeks in Japan. Everything is cheap. Various electronic stuff there such as micro controllers, sensors and geeky kits. The shop has been officially opened on 1970."
+        "description": "Mecca for electronics geeks in Japan - everything is cheap! Lots of different products, including microcontrollers, sensors and geeky kits. Officially opened in 1970."
     },
     {
         "name": "Sengoku Densho",
         "lat": 35.6992915,
         "lng": 139.77009010000006,
-        "description": "The price is a little bit expensive than Akizuki, but they have a good assortment of electronic parts, tools and assembly kits at the shop. They opened the shop on 1971. This one and Akizuki are adjoin, so basically, you can purchase items which you want to get in the those shops."
+        "description": "Prices are a little higher than Akizuki, but they have a good assortment of electronic components, tools and assembly kits here. Sengoku opened in 1971. Sengoku and Akizuki are adjacent, so basically you can hit up both stores in a single trip."
     },
     {
         "name": "Futaba Sangyo",
         "lat": 35.6958797,
         "lng": 139.77381430000003,
-        "description": "This R/C shop has an abundant line-up of lithium-polymer batteries."
+        "description": "This R/C shop has an wide range of lithium-polymer batteries."
     },
     {
         "name": "Akibaoo",
         "lat": 35.6999303,
         "lng": 139.770269,
-        "description": "Everything is good deal. Sometimes, you could get a real geekly find."
+        "description": "Pretty decent deals to be found here, but sometimes you can get lucky and find treasure!"
     },
     {
         "name": "Nishikawa Denshi",
         "lat": 35.6987351,
         "lng": 139.77037960000007,
-        "description": "There many screws and springs. It can be ordered from a piece."
+        "description": "Lots of mechanical components (fasteners, springs, etc) with no minimum unit purchase."
     },
     {
         "name": "SS-Musen",
         "lat": 35.6987837,
         "lng": 139.7708589,
-        "description": "The store carries a large selection of such as aluminum member."
+        "description": "The store carries a large selection of construction materials, like aluminum extrusion."
     },
     {
 	"name": "Vstone Robot Center",
 	"lat": 35.698741,
 	"lng": 139.770401,
-	"description": "The store is run by a Japanese robot company Vstone(https://www.vstone.co.jp/). It has a lot of robot parts such as sensors, gears, motors. It also sells educational robots and robot kits. Some robot kits are designed for children's education."
+	"description": "The store is run by a Japanese robotics company called Vstone(https://www.vstone.co.jp/). They carry a lot of robot parts such as sensors, gears and motors. They also sell educational robots and robot kits, including some specifically for children."
     },
     {
 	"name": "Tsukumo Robot Okoku",
 	"lat": 35.698914,
 	"lng": 139.770258,
-	"description": "The store has various bipedal walking robots and drones. and parts for robot development. There is a small ring for demonstration."
+	"description": "The store has various bipedal walking robots and drones, as well as parts for robot development. There is a small arena for demos."
     },
     {
 	"name": "Champ",
 	"lat": 35.703580,
 	"lng": 139.769866,
-	"description": "The store specializes in R/C cars, ships, aircrafts and smart drones. It has a large variety of batteries, gears, motors and metal parts."
+	"description": "Champ specializes in R/C cars, boats, aircraft and smart drones. It has a large variety of batteries, gears, motors and metal parts."
     }
 ]
