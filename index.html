@@ -16,17 +16,17 @@
         lng: 139.7698,
         enableNewStyle: true
       });
-      
+
       for(var i=1; i<=jsonData.length; i++) {
         var element = document.getElementById("body");
-           
+
         var h = document.createElement("h2");
         h.appendChild(document.createTextNode(jsonData[i-1].name));
         element.appendChild(h);
         var para = document.createElement("p");
         para.appendChild(document.createTextNode(jsonData[i-1].description));
         element.appendChild(para);
-        
+
         map.drawOverlay({
           lat: jsonData[i-1].lat,
           lng: jsonData[i-1].lng,
@@ -85,9 +85,9 @@
     <h2>Akihabara Map for Robot Geeks</h2>
   </div>
   <div id="body">
-    <p class="big centered">As the first, this area was prospered as the black market after the Second World War, and then it has come to be that provides various electronics, parts and software stuff as the economy grew rapidly. However, Akihabara's Electric Town is gradually declining in market superiority of a particular domestic electrical appliances, because of rapid raised of the large electrical appliance stores from 1990s onward. Therefore, many small and medium sized electronics stores has disappeared from there. On the other hand, basically those large shops does not carry geeky electronic parts, so that many unique and attractive shops are still exist in the same place. You'll see a townscape which haven't changed the holy places of geeks since before. In this site, I'd like to introduce attractive shops to you. (Not completed yet)</p>
-    <p class="centered">I hope you will be able to provide the information. Pull Requests are wellcome :)</p>
-    
+    <p class="big centered">After World War II, this area developed a reputation as black market of sorts, and flourished as a result. As the Japanese economy stared to grow rapidly, the area started to be a hub for electronics, including components and software. Nowadays, Akihabara's Electric Town is slowly declining under the pressure of competition from consumer electronics giants, which has caused many small and medium sized businesses to disappear from the area. That being said, big box consumer electronics stores don't carry geeky electronic parts, meaning that a niche for unique shops are still exists in Electric Town. In the area, you can still find the classic stores that geeks the world over have made pilgrimage to. On this site, I'd like to introduce some of these hidden gems to you. Still a work in progress.</p>
+    <p class="centered">Corrections and additions are always welcome, just create a pull request :)</p>
+
     <form method="post" id="geocoding_form">
       <label for="address">Geocoding</label>
       <div class="input">
@@ -100,7 +100,7 @@
     </div>
     <br>
   </div>
-  
+
   <p id="sponsors">
     <br />
     The website is available as open source under the terms of the BSD License. Copyright 2016 Daiki Maekawa. <a href="https://github.com/DaikiMaekawa" target="blank">https://github.com/DaikiMaekawa</a>

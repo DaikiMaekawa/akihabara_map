@@ -6,13 +6,13 @@ Akihabara Map for Robot Geeks.
 
 ## Usage
 
-The site has been published to the following link. 
+The site has been published to the following link.
 
 https://daikimaekawa.github.io/akihabara_map_for_geeks/
 
 ## Contributing
 
-If you know more things please let me know by writing down into [data.json](data.json).
+Add additional points of interest to [data.json](data.json).
 
 ```javascript
 {
@@ -23,7 +23,7 @@ If you know more things please let me know by writing down into [data.json](data
 }
 ```
 
-1. Fork it (https://github.com/DaikiMaekawa/akihabara_maps/fork)
+1. Fork this repo (https://github.com/DaikiMaekawa/akihabara_maps/fork)
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
