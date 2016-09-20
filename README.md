@@ -31,4 +31,4 @@ Add additional points of interest to [data.json](data.json).
 
 ## License
 
-The website is available as open source under the terms of the BSD License. Copyright 2015 Daiki Maekawa.
+The website is available as open source under the terms of the BSD License. Copyright 2015-2016 Daiki Maekawa.
